@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+    font-family: fantasy;
+}
+body {
+    background: url('base.jpeg') no-repeat center fixed;
+    background-size: cover;
+    
+}
+.container {
+    background-color: rgba(80, 153, 190, 0.3);
+    border: 1px solid rgba(8, 27, 76, 0.298);
+    border-radius: 10px;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+.noteinput {
+    background-color: /*rgba(0, 60, 95, 0.7)*/rgba(60, 100, 146, 0.739);
+    padding: 5px;
+    margin: 5px auto 5px auto;
+    width: 70%;
+    color: aliceblue;
+    font-size: 1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid /*rgba(8, 27, 76, 0.298)*/rgb(6, 107, 147);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(50, 120, 176, 0.739);
+}
+button {
+    padding: 15px;
+    border: 2px solid /*rgba(8, 27, 76, 0.298)*/rgb(6, 107, 147);
+    border-radius: 10px;
+    font-size: 1em;
+    background-image: linear-gradient(rgba(0, 166, 255, 0.3),rgba(255, 255, 255, 0.226),rgba(0, 166, 255, 0.3));
+    font-family:fantasy;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 10px 5px 5px rgba(50, 120, 176, 0.739);
+
+}
+#notes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5px;
+    
+}
+#notes .container{
+    width: 90%;
+    margin: 10px;
+} 
+.ctr2 {
+    text-align: center;
+}

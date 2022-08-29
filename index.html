@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note</title>
+    <script src="localstore.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Note</h1>
+    <div class="container">
+    <form action="" method="get">
+        <div class="titlebox">
+            <input class="noteinput" type="text" name="title" id="title" placeholder="title of note">
+        </div>
+        <div>
+            <textarea name="note" id="note" class="noteinput" cols="30" rows="10" placeholder="your note"></textarea>
+        </div>
+        <button type="submit">Save</button>
+        <button type="reset" id="clr">Clear</button>
+    </form>
+    </div>
+    <div id="notes">
+
+    </div>
+    <div class="ctr2"><button id="clearall">Clear All</button></div>
+</body>
+</html>
